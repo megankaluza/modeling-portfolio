@@ -169,4 +169,11 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+  $('#open18').click(function(){
+    $('.eighteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
 });

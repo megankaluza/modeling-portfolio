@@ -568,34 +568,16 @@ span {
   background-image: url("../img/shadow4.jpg"); }
 
 #imageSeventeen {
-  background-image: url("../img/adidas.png"); }
+  background-image: url("../img/mbellis1.jpg"); }
 
 #imageEighteen {
-  background-image: url("../img/mobile.png"); }
+  background-image: url("../img/mbellis2.jpg"); }
 
 #imageNineteen {
   background-image: url("../img/bk.png"); }
 
 #imageTwenty {
   background-image: url("../img/fashion-mock-up.png"); }
-
-#imageInsta {
-  background-image: url("../img/ig.png"); }
-
-#imageIcons {
-  background-image: url("../img/icons.svg"); }
-
-#imageGreen {
-  background-image: url("../img/green.svg"); }
-
-#imageRed {
-  background-image: url("../img/red.svg"); }
-
-#imageBlue {
-  background-image: url("../img/blue.svg"); }
-
-#imageEyes {
-  background-image: url("../img/eyes.svg"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {
