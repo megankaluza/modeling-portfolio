@@ -1,4 +1,4 @@
-# _Personal Portfolio_
+# _Modeling Portfolio_
 
 #### By _**Megan Kaluza**_
 
@@ -9,17 +9,12 @@
 
 _Objectives_
 
-* _Upload and showcase polished websites and mockups._
+* _Showcase Modeling/Dancing Experience_
 
 ## Setup/Installation Requirements
 
-* _mkaluza.com_
-* _Check out the GitHub Pages: https://megankaluza.github.io/personal-portfolio/_
-* _Clone this repository https://github.com/megankaluza/personal-portfolio.git_
-* _gem install sass_
-* _gem install bourbon_
-* _gem install neat_
-* _gem install saffron_
+* _Check out the GitHub Pages: https://megankaluza.github.io/modeling-portfolio/_
+* _Clone this repository https://github.com/megankaluza/modeling-portfolio.git_
 * _sass --watch ._
 * _Open in browser of your choice_
 
