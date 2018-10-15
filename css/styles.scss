@@ -213,7 +213,7 @@ span {
 #imageEighteen,
 #imageNineteen,
 #imageTwenty,
-#imageInsta,
+#imageTwentyOne,
 #imageIcons,
 #imageBlue,
 #imageGreen,
@@ -300,11 +300,15 @@ span {
 }
 
 #imageNineteen {
-  background-image: url('#{$path-img}/bk.png');
+  background-image: url('#{$path-img}/mbellis3.jpg');
 }
 
 #imageTwenty {
-  background-image: url('#{$path-img}/fashion-mock-up.png');
+  background-image: url('#{$path-img}/mbellis4.jpg');
+}
+
+#imageTwentyOne {
+  background-image: url('#{$path-img}/mbellis5.jpg');
 }
 
 // Media Queries

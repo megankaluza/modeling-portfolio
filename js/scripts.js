@@ -176,4 +176,25 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+  $('#open19').click(function(){
+    $('.nineteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open20').click(function(){
+    $('.twenty')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open21').click(function(){
+    $('.twentyOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
 });
