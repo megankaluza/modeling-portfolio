@@ -155,8 +155,9 @@ header {
   height: $button-height;
   line-height: $button-height;
   text-align: center;
-  font-family: $stack-dosis;
-  font-variant: small-caps;
+  font-family: 'Great Vibes', cursive;
+  // font-family: $stack-dosis;
+  // font-variant: small-caps;
   opacity: 0;
   transition:
   opacity $button-transistion-duration;
