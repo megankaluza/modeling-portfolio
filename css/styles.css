@@ -33,7 +33,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageTwentySix,
 #imageTwentySeven,
 #imageTwentyEight,
-#imageTwentyNine, .columns, .gallery {
+#imageTwentyNine,
+#imageThirty,
+#imageThirtyOne,
+#imageThirtyTwo,
+#imageThirtyThree,
+#imageThirtyFour,
+#imageThirtyFive,
+#imageThirtySix,
+#imageThirtySeven,
+#imageThirtyEight,
+#imageThirtyNine,
+#imageForty, .columns, .gallery {
   display: flex; }
 
 #footer-title, .contact, .intro, .label {
@@ -67,7 +78,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageTwentySix,
 #imageTwentySeven,
 #imageTwentyEight,
-#imageTwentyNine {
+#imageTwentyNine,
+#imageThirty,
+#imageThirtyOne,
+#imageThirtyTwo,
+#imageThirtyThree,
+#imageThirtyFour,
+#imageThirtyFive,
+#imageThirtySix,
+#imageThirtySeven,
+#imageThirtyEight,
+#imageThirtyNine,
+#imageForty {
   opacity: .5; }
 
 #imageOne,
@@ -98,7 +120,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageTwentySix,
 #imageTwentySeven,
 #imageTwentyEight,
-#imageTwentyNine {
+#imageTwentyNine,
+#imageThirty,
+#imageThirtyOne,
+#imageThirtyTwo,
+#imageThirtyThree,
+#imageThirtyFour,
+#imageThirtyFive,
+#imageThirtySix,
+#imageThirtySeven,
+#imageThirtyEight,
+#imageThirtyNine,
+#imageForty {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -131,7 +164,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageTwentySix,
 #imageTwentySeven,
 #imageTwentyEight,
-#imageTwentyNine {
+#imageTwentyNine,
+#imageThirty,
+#imageThirtyOne,
+#imageThirtyTwo,
+#imageThirtyThree,
+#imageThirtyFour,
+#imageThirtyFive,
+#imageThirtySix,
+#imageThirtySeven,
+#imageThirtyEight,
+#imageThirtyNine,
+#imageForty {
   align-items: center;
   justify-content: center; }
 
@@ -531,7 +575,18 @@ span {
 #imageTwentySix:hover,
 #imageTwentySeven:hover,
 #imageTwentyEight:hover,
-#imageTwentyNine:hover {
+#imageTwentyNine:hover,
+#imageThirty:hover,
+#imageThirtyOne:hover,
+#imageThirtyTwo:hover,
+#imageThirtyThree:hover,
+#imageThirtyFour:hover,
+#imageThirtyFive:hover,
+#imageThirtySix:hover,
+#imageThirtySeven:hover,
+#imageThirtyEight:hover,
+#imageThirtyNine:hover,
+#imageForty:hover {
   opacity: 1; }
 
 #imageOne {
@@ -610,13 +665,49 @@ span {
   background-image: url("../img/beach2.jpg"); }
 
 #imageTwentySix {
-  background-image: url("../img/fashion.jpg"); }
+  background-image: url("../img/sauvie.jpg"); }
 
 #imageTwentySeven {
-  background-image: url("../img/fashion2.jpg"); }
+  background-image: url("../img/sauvie2.jpg"); }
 
 #imageTwentyEight {
+  background-image: url("../img/sauvie3.jpg"); }
+
+#imageTwentyNine {
+  background-image: url("../img/sauvie4.jpg"); }
+
+#imageThirty {
+  background-image: url("../img/fashion.jpg"); }
+
+#imageThirtyOne {
+  background-image: url("../img/fashion2.jpg"); }
+
+#imageThirtyTwo {
   background-image: url("../img/fashion3.jpg"); }
+
+#imageThirtyThree {
+  background-image: url("../img/gogo.jpg"); }
+
+#imageThirtyFour {
+  background-image: url("../img/gogo2.jpg"); }
+
+#imageThirtyFive {
+  background-image: url("../img/gogo3.jpg"); }
+
+#imageThirtySix {
+  background-image: url("../img/gogo-back.jpg"); }
+
+#imageThirtySeven {
+  background-image: url("../img/gobo.jpg"); }
+
+#imageThirtyEight {
+  background-image: url("../img/gobo2.jpg"); }
+
+#imageThirtyNine {
+  background-image: url("../img/gobo3.jpg"); }
+
+#imageForty {
+  background-image: url("../img/gobo4.jpg"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

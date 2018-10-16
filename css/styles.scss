@@ -221,7 +221,18 @@ span {
 #imageTwentySix,
 #imageTwentySeven,
 #imageTwentyEight,
-#imageTwentyNine {
+#imageTwentyNine,
+#imageThirty,
+#imageThirtyOne,
+#imageThirtyTwo,
+#imageThirtyThree,
+#imageThirtyFour,
+#imageThirtyFive,
+#imageThirtySix,
+#imageThirtySeven,
+#imageThirtyEight,
+#imageThirtyNine,
+#imageForty {
   @extend %align;
   @extend %image;
   @extend %opacity;
@@ -331,15 +342,63 @@ span {
 }
 
 #imageTwentySix {
-  background-image: url('#{$path-img}/fashion.jpg');
+  background-image: url('#{$path-img}/sauvie.jpg');
 }
 
 #imageTwentySeven {
-  background-image: url('#{$path-img}/fashion2.jpg');
+  background-image: url('#{$path-img}/sauvie2.jpg');
 }
 
 #imageTwentyEight {
+  background-image: url('#{$path-img}/sauvie3.jpg');
+}
+
+#imageTwentyNine {
+  background-image: url('#{$path-img}/sauvie4.jpg');
+}
+
+#imageThirty {
+  background-image: url('#{$path-img}/fashion.jpg');
+}
+
+#imageThirtyOne {
+  background-image: url('#{$path-img}/fashion2.jpg');
+}
+
+#imageThirtyTwo {
   background-image: url('#{$path-img}/fashion3.jpg');
+}
+
+#imageThirtyThree {
+  background-image: url('#{$path-img}/gogo.jpg');
+}
+
+#imageThirtyFour {
+  background-image: url('#{$path-img}/gogo2.jpg');
+}
+
+#imageThirtyFive {
+  background-image: url('#{$path-img}/gogo3.jpg');
+}
+
+#imageThirtySix {
+  background-image: url('#{$path-img}/gogo-back.jpg');
+}
+
+#imageThirtySeven {
+  background-image: url('#{$path-img}/gobo.jpg');
+}
+
+#imageThirtyEight {
+  background-image: url('#{$path-img}/gobo2.jpg');
+}
+
+#imageThirtyNine {
+  background-image: url('#{$path-img}/gobo3.jpg');
+}
+
+#imageForty {
+  background-image: url('#{$path-img}/gobo4.jpg');
 }
 
 // Media Queries

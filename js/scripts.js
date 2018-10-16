@@ -225,7 +225,6 @@ $(document).ready(function(){
     })
     .modal('show');
   });
-
   $('#open26').click(function(){
     $('.twentySix')
     .modal({
@@ -242,6 +241,90 @@ $(document).ready(function(){
   });
   $('#open28').click(function(){
     $('.twentyEight')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open29').click(function(){
+    $('.twentyNine')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open30').click(function(){
+    $('.thirty')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open31').click(function(){
+    $('.thirtyOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open32').click(function(){
+    $('.thirtyTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open33').click(function(){
+    $('.thirtyThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open34').click(function(){
+    $('.thirtyFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open35').click(function(){
+    $('.thirtyFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open36').click(function(){
+    $('.thirtySix')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open37').click(function(){
+    $('.thirtySeven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open38').click(function(){
+    $('.thirtyEight')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open39').click(function(){
+    $('.thirtyNine')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open40').click(function(){
+    $('.forty')
     .modal({
       blurring: true
     })
