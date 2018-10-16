@@ -214,11 +214,14 @@ span {
 #imageNineteen,
 #imageTwenty,
 #imageTwentyOne,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes {
+#imageTwentyTwo,
+#imageTwentyThree,
+#imageTwentyFour,
+#imageTwentyFive,
+#imageTwentySix,
+#imageTwentySeven,
+#imageTwentyEight,
+#imageTwentyNine {
   @extend %align;
   @extend %image;
   @extend %opacity;
@@ -309,6 +312,34 @@ span {
 
 #imageTwentyOne {
   background-image: url('#{$path-img}/mbellis5.jpg');
+}
+
+#imageTwentyTwo {
+  background-image: url('#{$path-img}/urban.jpg');
+}
+
+#imageTwentyThree {
+  background-image: url('#{$path-img}/beach.jpg');
+}
+
+#imageTwentyFour {
+  background-image: url('#{$path-img}/beach1.jpg');
+}
+
+#imageTwentyFive {
+  background-image: url('#{$path-img}/beach2.jpg');
+}
+
+#imageTwentySix {
+  background-image: url('#{$path-img}/fashion.jpg');
+}
+
+#imageTwentySeven {
+  background-image: url('#{$path-img}/fashion2.jpg');
+}
+
+#imageTwentyEight {
+  background-image: url('#{$path-img}/fashion3.jpg');
 }
 
 // Media Queries

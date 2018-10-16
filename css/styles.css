@@ -26,11 +26,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageNineteen,
 #imageTwenty,
 #imageTwentyOne,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes, .columns, .gallery {
+#imageTwentyTwo,
+#imageTwentyThree,
+#imageTwentyFour,
+#imageTwentyFive,
+#imageTwentySix,
+#imageTwentySeven,
+#imageTwentyEight,
+#imageTwentyNine, .columns, .gallery {
   display: flex; }
 
 #footer-title, .contact, .intro, .label {
@@ -57,11 +60,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageNineteen,
 #imageTwenty,
 #imageTwentyOne,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes {
+#imageTwentyTwo,
+#imageTwentyThree,
+#imageTwentyFour,
+#imageTwentyFive,
+#imageTwentySix,
+#imageTwentySeven,
+#imageTwentyEight,
+#imageTwentyNine {
   opacity: .5; }
 
 #imageOne,
@@ -85,11 +91,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageNineteen,
 #imageTwenty,
 #imageTwentyOne,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes {
+#imageTwentyTwo,
+#imageTwentyThree,
+#imageTwentyFour,
+#imageTwentyFive,
+#imageTwentySix,
+#imageTwentySeven,
+#imageTwentyEight,
+#imageTwentyNine {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -115,11 +124,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageNineteen,
 #imageTwenty,
 #imageTwentyOne,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes {
+#imageTwentyTwo,
+#imageTwentyThree,
+#imageTwentyFour,
+#imageTwentyFive,
+#imageTwentySix,
+#imageTwentySeven,
+#imageTwentyEight,
+#imageTwentyNine {
   align-items: center;
   justify-content: center; }
 
@@ -512,11 +524,14 @@ span {
 #imageNineteen:hover,
 #imageTwenty:hover,
 #imageTwentyOne:hover,
-#imageIcons:hover,
-#imageBlue:hover,
-#imageGreen:hover,
-#imageRed:hover,
-#imageEyes:hover {
+#imageTwentyTwo:hover,
+#imageTwentyThree:hover,
+#imageTwentyFour:hover,
+#imageTwentyFive:hover,
+#imageTwentySix:hover,
+#imageTwentySeven:hover,
+#imageTwentyEight:hover,
+#imageTwentyNine:hover {
   opacity: 1; }
 
 #imageOne {
@@ -581,6 +596,27 @@ span {
 
 #imageTwentyOne {
   background-image: url("../img/mbellis5.jpg"); }
+
+#imageTwentyTwo {
+  background-image: url("../img/urban.jpg"); }
+
+#imageTwentyThree {
+  background-image: url("../img/beach.jpg"); }
+
+#imageTwentyFour {
+  background-image: url("../img/beach1.jpg"); }
+
+#imageTwentyFive {
+  background-image: url("../img/beach2.jpg"); }
+
+#imageTwentySix {
+  background-image: url("../img/fashion.jpg"); }
+
+#imageTwentySeven {
+  background-image: url("../img/fashion2.jpg"); }
+
+#imageTwentyEight {
+  background-image: url("../img/fashion3.jpg"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

@@ -197,4 +197,55 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+  $('#open22').click(function(){
+    $('.twentyTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open23').click(function(){
+    $('.twentyThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open24').click(function(){
+    $('.twentyFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open25').click(function(){
+    $('.twentyFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#open26').click(function(){
+    $('.twentySix')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open27').click(function(){
+    $('.twentySeven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open28').click(function(){
+    $('.twentyEight')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
 });
