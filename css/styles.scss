@@ -415,7 +415,7 @@ and (max-width: 1025px) {
 (min-width: 667px)
 and (max-width: 768px) {
   .label {
-    background-image: url('#{$path-img}/hidden.svg');
+    // background-image: url('#{$path-img}/hidden.svg');
   }
 
   .social {
@@ -444,7 +444,7 @@ and (max-width: 415px) {
   }
 
   .label {
-    background-image: url('#{$path-img}/hidden.svg');
+    // background-image: url('#{$path-img}/hidden.svg');
   }
 
   .menu li {
