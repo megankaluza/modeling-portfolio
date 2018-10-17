@@ -46,6 +46,13 @@ span {
   color: $blue;
 }
 
+.background {
+  @extend %align;
+  @extend %image;
+  width: 100%;
+  height: 100vh;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
