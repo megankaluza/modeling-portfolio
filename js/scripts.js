@@ -45,7 +45,7 @@ $(document).ready(function(){
       }
     }
   });
-  
+
   //Open Modal
   $('#open').click(function(){
     $('.one')
@@ -54,10 +54,64 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+
   //Exit Modal
   $('.exit').click(function(){
     $('.modal').modal('hide');
   });
+
+  //Insert New Photos
+  $('#insert1').click(function(){
+    $('.insert-one')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert2').click(function(){
+    $('.insert-two')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert3').click(function(){
+    $('.insert-three')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert4').click(function(){
+    $('.insert-four')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert5').click(function(){
+    $('.insert-five')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert6').click(function(){
+    $('.insert-six')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#insert7').click(function(){
+    $('.insert-seven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //Photos
   $('#open2').click(function(){
     $('.two')
     .modal({

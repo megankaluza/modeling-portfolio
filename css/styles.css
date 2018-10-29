@@ -44,7 +44,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThirtySeven,
 #imageThirtyEight,
 #imageThirtyNine,
-#imageForty, .columns, .gallery {
+#imageForty,
+#insertOne,
+#insertTwo,
+#insertThree,
+#insertFour,
+#insertFive,
+#insertSix,
+#insertSeven, .columns, .gallery {
   display: flex; }
 
 #footer-title, .contact, .intro, .label {
@@ -89,7 +96,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThirtySeven,
 #imageThirtyEight,
 #imageThirtyNine,
-#imageForty {
+#imageForty,
+#insertOne,
+#insertTwo,
+#insertThree,
+#insertFour,
+#insertFive,
+#insertSix,
+#insertSeven {
   opacity: .5; }
 
 .background, #imageOne,
@@ -131,7 +145,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThirtySeven,
 #imageThirtyEight,
 #imageThirtyNine,
-#imageForty {
+#imageForty,
+#insertOne,
+#insertTwo,
+#insertThree,
+#insertFour,
+#insertFive,
+#insertSix,
+#insertSeven {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -175,7 +196,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThirtySeven,
 #imageThirtyEight,
 #imageThirtyNine,
-#imageForty {
+#imageForty,
+#insertOne,
+#insertTwo,
+#insertThree,
+#insertFour,
+#insertFive,
+#insertSix,
+#insertSeven {
   align-items: center;
   justify-content: center; }
 
@@ -586,8 +614,36 @@ span {
 #imageThirtySeven:hover,
 #imageThirtyEight:hover,
 #imageThirtyNine:hover,
-#imageForty:hover {
+#imageForty:hover,
+#insertOne:hover,
+#insertTwo:hover,
+#insertThree:hover,
+#insertFour:hover,
+#insertFive:hover,
+#insertSix:hover,
+#insertSeven:hover {
   opacity: 1; }
+
+#insertOne {
+  background-image: url("../img/pumpkin.jpg"); }
+
+#insertTwo {
+  background-image: url("../img/pumpkin2.jpg"); }
+
+#insertThree {
+  background-image: url("../img/pumpkin3.jpg"); }
+
+#insertFour {
+  background-image: url("../img/corn1.jpg"); }
+
+#insertFive {
+  background-image: url("../img/corn2.jpg"); }
+
+#insertSix {
+  background-image: url("../img/corn3.jpg"); }
+
+#insertSeven {
+  background-image: url("../img/corn4.jpg"); }
 
 #imageOne {
   background-image: url("../img/boudoir1.jpg"); }

@@ -239,7 +239,14 @@ span {
 #imageThirtySeven,
 #imageThirtyEight,
 #imageThirtyNine,
-#imageForty {
+#imageForty,
+#insertOne,
+#insertTwo,
+#insertThree,
+#insertFour,
+#insertFive,
+#insertSix,
+#insertSeven {
   @extend %align;
   @extend %image;
   @extend %opacity;
@@ -247,6 +254,38 @@ span {
     opacity: 1;
   }
 }
+
+//INSERT Photos
+
+#insertOne {
+  background-image: url('#{$path-img}/pumpkin.jpg');
+}
+
+#insertTwo {
+  background-image: url('#{$path-img}/pumpkin2.jpg');
+}
+
+#insertThree {
+  background-image: url('#{$path-img}/pumpkin3.jpg');
+}
+
+#insertFour {
+  background-image: url('#{$path-img}/corn1.jpg');
+}
+
+#insertFive {
+  background-image: url('#{$path-img}/corn2.jpg');
+}
+
+#insertSix {
+  background-image: url('#{$path-img}/corn3.jpg');
+}
+
+#insertSeven {
+  background-image: url('#{$path-img}/corn4.jpg');
+}
+
+//Photos
 
 #imageOne {
   background-image: url('#{$path-img}/boudoir1.jpg');
