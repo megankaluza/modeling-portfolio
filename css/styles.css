@@ -515,11 +515,11 @@ span {
   height: 30%; }
 
 .label {
-  background: #474242;
+  background: #FFFFFF;
   border-bottom: 1px solid #000000;
   border-top: 1px solid #000000; }
   .label a {
-    color: #FFFFFF; }
+    color: #000000; }
   .label h3 {
     color: #000000; }
 

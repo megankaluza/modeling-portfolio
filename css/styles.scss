@@ -112,14 +112,14 @@ span {
 
 .label {
   @extend %centered;
-  background: #474242;
+  background: $white;
   // background-image: url('#{$path-img}/black-bubbles.svg');
   // background-repeat: no-repeat;
   // background-position: bottom right;
   border-bottom: 1px solid $black;
   border-top: 1px solid $black;
   a {
-    color: $white;
+    color: $black;
   }
   h3 {
     color: $black;
