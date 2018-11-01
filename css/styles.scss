@@ -1,12 +1,8 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Molle:400i|Yanone+Kaffeesatzz|Cookie|Lora|Dosis|Yellowtail');
-
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
-// Libraries
-// @import "libraries/neat/neat";
-// @import "libraries/bourbon/bourbon";
-// @import "libraries/saffron/saffron";
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 // Sass Components
 @import "base/index";
 
@@ -16,19 +12,15 @@ body {
 
 h2 {
   color: $madder;
-  font-family: 'Great Vibes', cursive;
-  // font-family: $stack-dosis;
-  // font-variant: small-caps;
+  // font-family: 'Great Vibes', cursive;
   letter-spacing: .2em;
   padding-top: .8em;
 }
 
 h3 {
-  // color: $black;
-  // font-family: $stack-dosis;
-  font-family: 'Great Vibes', cursive;
+  // font-family: 'Great Vibes', cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 2em;
-  // font-variant: small-caps;
   padding: 2em;
   letter-spacing: .2em;
 }
@@ -105,8 +97,11 @@ span {
 
 .intro {
   @extend %centered;
-  border-bottom: 1px solid $black;
-  background-color: $white;
+  // border-bottom: 1px solid $black;
+  // background-color: $white;
+  background-image: url('#{$path-img}/graffiti.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
   height: 30%;
 }
 
@@ -428,24 +423,24 @@ span {
 }
 
 #imageThirtySix {
-  background-image: url('#{$path-img}/gogo-back.jpg');
+  background-image: url('#{$path-img}/gogob.jpg');
 }
 
-#imageThirtySeven {
-  background-image: url('#{$path-img}/gobo.jpg');
-}
-
-#imageThirtyEight {
-  background-image: url('#{$path-img}/gobo2.jpg');
-}
-
-#imageThirtyNine {
-  background-image: url('#{$path-img}/gobo3.jpg');
-}
-
-#imageForty {
-  background-image: url('#{$path-img}/gobo4.jpg');
-}
+// #imageThirtySeven {
+//   background-image: url('#{$path-img}/gobo.jpg');
+// }
+//
+// #imageThirtyEight {
+//   background-image: url('#{$path-img}/gobo2.jpg');
+// }
+//
+// #imageThirtyNine {
+//   background-image: url('#{$path-img}/gobo3.jpg');
+// }
+//
+// #imageForty {
+//   background-image: url('#{$path-img}/gobo4.jpg');
+// }
 
 // Media Queries
 @media only screen and

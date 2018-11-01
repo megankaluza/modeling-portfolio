@@ -257,6 +257,9 @@ header {
 }
 
 .fscreen {
+  background-image: url('#{$path-img}/graffiti.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
   position: relative;
   overflow: hidden;
   width: 100%;
