@@ -3,6 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Sacramento');
+
 // Sass Components
 @import "base/index";
 
@@ -11,17 +17,15 @@ body {
 }
 
 h2 {
-  color: $madder;
-  // font-family: 'Great Vibes', cursive;
-  letter-spacing: .2em;
-  padding-top: .8em;
+  font-family: 'Advent Pro', sans-serif;
+  letter-spacing: .1em;
+  padding-bottom: 1em;
 }
 
 h3 {
-  // font-family: 'Great Vibes', cursive;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Advent Pro', sans-serif;
   font-size: 2em;
-  padding: 2em;
+  padding: 1em;
   letter-spacing: .2em;
 }
 
@@ -99,7 +103,7 @@ span {
   @extend %centered;
   // border-bottom: 1px solid $black;
   // background-color: $white;
-  background-image: url('#{$path-img}/graffiti.jpg');
+  // background-image: url('#{$path-img}/footer.svg');
   background-repeat: no-repeat;
   background-position: right;
   height: 30%;
@@ -108,9 +112,9 @@ span {
 .label {
   @extend %centered;
   background: $white;
-  // background-image: url('#{$path-img}/black-bubbles.svg');
-  // background-repeat: no-repeat;
-  // background-position: bottom right;
+  // background-image: url('#{$path-img}/footer.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
   border-bottom: 1px solid $black;
   border-top: 1px solid $black;
   a {
@@ -484,8 +488,9 @@ and (max-width: 415px) {
     background-size: contain;
   }
 
-  .label {
-    // background-image: url('#{$path-img}/hidden.svg');
+  .label,
+  .intro {
+    background-image: url('#{$path-img}/hidden.svg');
   }
 
   .menu li {
