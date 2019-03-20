@@ -16,6 +16,14 @@ body {
   width: 100%;
 }
 
+h1 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2em;
+  padding: 1em;
+  letter-spacing: .2em;
+  text-align: right;
+}
+
 h2 {
   font-family: 'Advent Pro', sans-serif;
   letter-spacing: .1em;
@@ -77,13 +85,18 @@ span {
 }
 
 .exit {
+  // z-index: 1;
   display: block;
   margin: 0 auto;
-  width: 30px;
+  width: 40px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .grow {
-  width: 40px;
+  width: 70px;
   transition: all .2s ease-in-out;
   &:hover {
     transform: scale(1.1);
@@ -303,11 +316,11 @@ span {
 }
 
 #imageFive {
-  background-image: url('#{$path-img}/boudoir5.jpg');
+  background-image: url('#{$path-img}/boudoir6.jpg');
 }
 
 #imageSix {
-  background-image: url('#{$path-img}/boudoir6.jpg');
+  background-image: url('#{$path-img}/boudoir5.jpg');
 }
 
 #imageSeven {
