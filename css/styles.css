@@ -763,6 +763,15 @@ span {
 #imageThirtySix {
   background-image: url("../img/gogob.jpg"); }
 
+#imageThirtySeven {
+  background-image: url("../img/tez_one.jpg"); }
+
+#imageThirtyEight {
+  background-image: url("../img/tez_two.jpg"); }
+
+#imageThirtyNine {
+  background-image: url("../img/tez_three.jpg"); }
+
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {
     margin: 18em .2em;
