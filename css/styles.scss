@@ -17,7 +17,8 @@ body {
 }
 
 h1 {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Sacramento', cursive;
+  // font-family: 'Advent Pro', sans-serif;
   font-size: 2em;
   padding: 1em;
   letter-spacing: .2em;
@@ -300,27 +301,27 @@ span {
 //Photos
 
 #imageOne {
-  background-image: url('#{$path-img}/boudoir1.jpg');
+  background-image: url('#{$path-img}/rooftop8.png');
 }
 
 #imageTwo {
-  background-image: url('#{$path-img}/boudoir2.jpg');
+  background-image: url('#{$path-img}/rooftop2.png');
 }
 
 #imageThree {
-  background-image: url('#{$path-img}/boudoir3.jpg');
+  background-image: url('#{$path-img}/rooftop10.png');
 }
 
 #imageFour {
-  background-image: url('#{$path-img}/boudoir4.jpg');
+  background-image: url('#{$path-img}/boudoir1.jpg');
 }
 
 #imageFive {
-  background-image: url('#{$path-img}/boudoir6.jpg');
+  background-image: url('#{$path-img}/boudoir2.jpg');
 }
 
 #imageSix {
-  background-image: url('#{$path-img}/boudoir5.jpg');
+  background-image: url('#{$path-img}/back.jpg');
 }
 
 #imageSeven {
