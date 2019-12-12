@@ -210,7 +210,11 @@ span {
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen {
+#imageEighteen,
+#imageNineteen,
+#imageTwenty,
+#imageTwentyOne,
+#imageTwentyTwo {
   @extend %align;
   @extend %image;
   // @extend %opacity;
@@ -226,11 +230,11 @@ span {
 }
 
 #imageTwo {
-  background-image: url('#{$path-img}/rooftop2.png');
+  background-image: url('#{$path-img}/rooftop5.png');
 }
 
 #imageThree {
-  background-image: url('#{$path-img}/rooftop3.png');
+  background-image: url('#{$path-img}/rooftop2.png');
 }
 
 #imageFour {
@@ -282,15 +286,31 @@ span {
 }
 
 #imageSixteen {
-  background-image: url('#{$path-img}/gogoblack2.png');
+  background-image: url('#{$path-img}/bootygogo.png');
 }
 
 #imageSeventeen {
-  background-image: url('#{$path-img}/gogoblack3.png');
+  background-image: url('#{$path-img}/gogoblack2.png');
 }
 
 #imageEighteen {
-  background-image: url('#{$path-img}/gogo3.jpg');
+  background-image: url('#{$path-img}/gogoblack3.png');
+}
+
+#imageNineteen {
+  background-image: url('#{$path-img}/gogo5.png');
+}
+
+#imageTwenty {
+  background-image: url('#{$path-img}/lifestyle1.png');
+}
+
+#imageTwentyOne {
+  background-image: url('#{$path-img}/booty.png');
+}
+
+#imageTwentyTwo {
+  background-image: url('#{$path-img}/booty2.png');
 }
 
 // Media Queries

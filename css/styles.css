@@ -22,7 +22,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen, .columns, .gallery {
+#imageEighteen,
+#imageNineteen,
+#imageTwenty,
+#imageTwentyOne,
+#imageTwentyTwo, .columns, .gallery {
   display: flex; }
 
 #footer-title, .contact, .intro {
@@ -45,7 +49,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen {
+#imageEighteen,
+#imageNineteen,
+#imageTwenty,
+#imageTwentyOne,
+#imageTwentyTwo {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -67,7 +75,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen {
+#imageEighteen,
+#imageNineteen,
+#imageTwenty,
+#imageTwentyOne,
+#imageTwentyTwo {
   align-items: center;
   justify-content: center; }
 
@@ -244,17 +256,21 @@ span {
 #imageFifteen:hover,
 #imageSixteen:hover,
 #imageSeventeen:hover,
-#imageEighteen:hover {
+#imageEighteen:hover,
+#imageNineteen:hover,
+#imageTwenty:hover,
+#imageTwentyOne:hover,
+#imageTwentyTwo:hover {
   opacity: 1; }
 
 #imageOne {
   background-image: url("../img/rooftop1.png"); }
 
 #imageTwo {
-  background-image: url("../img/rooftop2.png"); }
+  background-image: url("../img/rooftop5.png"); }
 
 #imageThree {
-  background-image: url("../img/rooftop3.png"); }
+  background-image: url("../img/rooftop2.png"); }
 
 #imageFour {
   background-image: url("../img/boudoir1.jpg"); }
@@ -293,13 +309,25 @@ span {
   background-image: url("../img/gogoblack.png"); }
 
 #imageSixteen {
-  background-image: url("../img/gogoblack2.png"); }
+  background-image: url("../img/bootygogo.png"); }
 
 #imageSeventeen {
-  background-image: url("../img/gogoblack3.png"); }
+  background-image: url("../img/gogoblack2.png"); }
 
 #imageEighteen {
-  background-image: url("../img/gogo3.jpg"); }
+  background-image: url("../img/gogoblack3.png"); }
+
+#imageNineteen {
+  background-image: url("../img/gogo5.png"); }
+
+#imageTwenty {
+  background-image: url("../img/lifestyle1.png"); }
+
+#imageTwentyOne {
+  background-image: url("../img/booty.png"); }
+
+#imageTwentyTwo {
+  background-image: url("../img/booty2.png"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

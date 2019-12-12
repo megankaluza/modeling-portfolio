@@ -154,35 +154,34 @@ $(document).ready(function(){
     })
     .modal('show');
   });
-
-  // $('#open19').click(function(){
-  //   $('.nineteen')
-  //   .modal({
-  //     blurring: true
-  //   })
-  //   .modal('show');
-  // });
-  // $('#open20').click(function(){
-  //   $('.twenty')
-  //   .modal({
-  //     blurring: true
-  //   })
-  //   .modal('show');
-  // });
-  // $('#open21').click(function(){
-  //   $('.twentyOne')
-  //   .modal({
-  //     blurring: true
-  //   })
-  //   .modal('show');
-  // });
-  // $('#open22').click(function(){
-  //   $('.twentyTwo')
-  //   .modal({
-  //     blurring: true
-  //   })
-  //   .modal('show');
-  // });
+  $('#open19').click(function(){
+    $('.nineteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open20').click(function(){
+    $('.twenty')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open21').click(function(){
+    $('.twentyOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#open22').click(function(){
+    $('.twentyTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
   // $('#open23').click(function(){
   //   $('.twentyThree')
   //   .modal({
@@ -309,5 +308,4 @@ $(document).ready(function(){
   //   })
   //   .modal('show');
   // });
-
 });
