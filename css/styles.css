@@ -22,89 +22,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
-#imageTwentyOne,
-#imageTwentyTwo,
-#imageTwentyThree,
-#imageTwentyFour,
-#imageTwentyFive,
-#imageTwentySix,
-#imageTwentySeven,
-#imageTwentyEight,
-#imageTwentyNine,
-#imageThirty,
-#imageThirtyOne,
-#imageThirtyTwo,
-#imageThirtyThree,
-#imageThirtyFour,
-#imageThirtyFive,
-#imageThirtySix,
-#imageThirtySeven,
-#imageThirtyEight,
-#imageThirtyNine,
-#imageForty,
-#insertOne,
-#insertTwo,
-#insertThree,
-#insertFour,
-#insertFive,
-#insertSix,
-#insertSeven, .columns, .gallery {
+#imageEighteen, .columns, .gallery {
   display: flex; }
 
-#footer-title, .contact, .intro, .label {
+#footer-title, .contact, .intro {
   text-align: center; }
-
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
-#imageTwentyOne,
-#imageTwentyTwo,
-#imageTwentyThree,
-#imageTwentyFour,
-#imageTwentyFive,
-#imageTwentySix,
-#imageTwentySeven,
-#imageTwentyEight,
-#imageTwentyNine,
-#imageThirty,
-#imageThirtyOne,
-#imageThirtyTwo,
-#imageThirtyThree,
-#imageThirtyFour,
-#imageThirtyFive,
-#imageThirtySix,
-#imageThirtySeven,
-#imageThirtyEight,
-#imageThirtyNine,
-#imageForty,
-#insertOne,
-#insertTwo,
-#insertThree,
-#insertFour,
-#insertFive,
-#insertSix,
-#insertSeven {
-  opacity: .5; }
 
 .background, #imageOne,
 #imageTwo,
@@ -123,36 +45,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
-#imageTwentyOne,
-#imageTwentyTwo,
-#imageTwentyThree,
-#imageTwentyFour,
-#imageTwentyFive,
-#imageTwentySix,
-#imageTwentySeven,
-#imageTwentyEight,
-#imageTwentyNine,
-#imageThirty,
-#imageThirtyOne,
-#imageThirtyTwo,
-#imageThirtyThree,
-#imageThirtyFour,
-#imageThirtyFive,
-#imageThirtySix,
-#imageThirtySeven,
-#imageThirtyEight,
-#imageThirtyNine,
-#imageForty,
-#insertOne,
-#insertTwo,
-#insertThree,
-#insertFour,
-#insertFive,
-#insertSix,
-#insertSeven {
+#imageEighteen {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -174,36 +67,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
-#imageTwentyOne,
-#imageTwentyTwo,
-#imageTwentyThree,
-#imageTwentyFour,
-#imageTwentyFive,
-#imageTwentySix,
-#imageTwentySeven,
-#imageTwentyEight,
-#imageTwentyNine,
-#imageThirty,
-#imageThirtyOne,
-#imageThirtyTwo,
-#imageThirtyThree,
-#imageThirtyFour,
-#imageThirtyFive,
-#imageThirtySix,
-#imageThirtySeven,
-#imageThirtyEight,
-#imageThirtyNine,
-#imageForty,
-#insertOne,
-#insertTwo,
-#insertThree,
-#insertFour,
-#insertFive,
-#insertSix,
-#insertSeven {
+#imageEighteen {
   align-items: center;
   justify-content: center; }
 
@@ -212,10 +76,6 @@ h4 {
   font-family: 'Advent Pro', sans-serif;
   padding: .5em;
   text-align: right; }
-
-h5 {
-  font-family: 'Great Vibes', cursive;
-  text-align: center; }
 
 .modal {
   display: none; }
@@ -229,9 +89,8 @@ h5 {
   height: 100%; }
 
 #footer-title {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1em;
-  margin: 3em; }
+  font-family: "Sacramento", cursive;
+  font-size: 1em; }
 
 #footer {
   font-size: 2em; }
@@ -448,7 +307,7 @@ body {
   width: 100%; }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 2em;
   padding: 1em;
   letter-spacing: .2em;
@@ -459,8 +318,12 @@ h2 {
   letter-spacing: .1em;
   padding-bottom: 1em; }
 
+h2 a {
+  color: #000000;
+  font-family: "Sacramento", cursive; }
+
 h3 {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   padding: 1em;
   font-size: 3em; }
 
@@ -506,10 +369,13 @@ span {
     transform: scale(1.1); }
 
 .grow {
-  width: 10%;
+  width: 100%;
   transition: all .1s ease-in-out; }
   .grow:hover {
     transform: scale(1.1); }
+
+.hide {
+  opacity: 0; }
 
 .icon {
   margin: 1em;
@@ -522,17 +388,6 @@ span {
   background-repeat: no-repeat;
   background-position: right;
   height: 30%; }
-
-.label {
-  background: #FFFFFF;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  border-bottom: 1px solid #000000;
-  border-top: 1px solid #000000; }
-  .label a {
-    color: #000000; }
-  .label h3 {
-    color: #000000; }
 
 .margin {
   margin-bottom: 3em; }
@@ -579,12 +434,7 @@ span {
   flex-grow: 1; }
 
 .gallery {
-  flex-wrap: wrap;
-  -webkit-filter: grayscale(100%); }
-  .gallery:hover {
-    opacity: 1;
-    filter: none;
-    -webkit-filter: grayscale(0%); }
+  flex-wrap: wrap; }
 
 #imageOne:hover,
 #imageTwo:hover,
@@ -603,67 +453,17 @@ span {
 #imageFifteen:hover,
 #imageSixteen:hover,
 #imageSeventeen:hover,
-#imageEighteen:hover,
-#imageNineteen:hover,
-#imageTwenty:hover,
-#imageTwentyOne:hover,
-#imageTwentyTwo:hover,
-#imageTwentyThree:hover,
-#imageTwentyFour:hover,
-#imageTwentyFive:hover,
-#imageTwentySix:hover,
-#imageTwentySeven:hover,
-#imageTwentyEight:hover,
-#imageTwentyNine:hover,
-#imageThirty:hover,
-#imageThirtyOne:hover,
-#imageThirtyTwo:hover,
-#imageThirtyThree:hover,
-#imageThirtyFour:hover,
-#imageThirtyFive:hover,
-#imageThirtySix:hover,
-#imageThirtySeven:hover,
-#imageThirtyEight:hover,
-#imageThirtyNine:hover,
-#imageForty:hover,
-#insertOne:hover,
-#insertTwo:hover,
-#insertThree:hover,
-#insertFour:hover,
-#insertFive:hover,
-#insertSix:hover,
-#insertSeven:hover {
+#imageEighteen:hover {
   opacity: 1; }
 
-#insertOne {
-  background-image: url("../img/pumpkin.jpg"); }
-
-#insertTwo {
-  background-image: url("../img/pumpkin2.jpg"); }
-
-#insertThree {
-  background-image: url("../img/pumpkin3.jpg"); }
-
-#insertFour {
-  background-image: url("../img/corn1.jpg"); }
-
-#insertFive {
-  background-image: url("../img/corn2.jpg"); }
-
-#insertSix {
-  background-image: url("../img/corn3.jpg"); }
-
-#insertSeven {
-  background-image: url("../img/corn4.jpg"); }
-
 #imageOne {
-  background-image: url("../img/rooftop8.png"); }
+  background-image: url("../img/rooftop1.png"); }
 
 #imageTwo {
   background-image: url("../img/rooftop2.png"); }
 
 #imageThree {
-  background-image: url("../img/rooftop10.png"); }
+  background-image: url("../img/rooftop3.png"); }
 
 #imageFour {
   background-image: url("../img/boudoir1.jpg"); }
@@ -675,103 +475,40 @@ span {
   background-image: url("../img/back.jpg"); }
 
 #imageSeven {
-  background-image: url("../img/boudoir7.jpg"); }
-
-#imageEight {
   background-image: url("../img/boudoir8.jpg"); }
 
-#imageNine {
+#imageEight {
   background-image: url("../img/boudoir9.jpg"); }
 
-#imageTen {
+#imageNine {
   background-image: url("../img/butterfly.jpg"); }
 
+#imageTen {
+  background-image: url("../img/boudoir6.jpg"); }
+
 #imageEleven {
-  background-image: url("../img/butterfly2.jpg"); }
+  background-image: url("../img/bedroom1.png"); }
 
 #imageTwelve {
-  background-image: url("../img/butterfly3.jpg"); }
+  background-image: url("../img/beach.png"); }
 
 #imageThirteen {
-  background-image: url("../img/shadow.jpg"); }
+  background-image: url("../img/beach2.png"); }
 
 #imageFourteen {
-  background-image: url("../img/shadow2.jpg"); }
+  background-image: url("../img/sauvie3.png"); }
 
 #imageFifteen {
-  background-image: url("../img/shadow3.jpg"); }
+  background-image: url("../img/gogoblack.png"); }
 
 #imageSixteen {
-  background-image: url("../img/shadow4.jpg"); }
+  background-image: url("../img/gogoblack2.png"); }
 
 #imageSeventeen {
-  background-image: url("../img/mbellis1.jpg"); }
+  background-image: url("../img/gogoblack3.png"); }
 
 #imageEighteen {
-  background-image: url("../img/mbellis2.jpg"); }
-
-#imageNineteen {
-  background-image: url("../img/mbellis3.jpg"); }
-
-#imageTwenty {
-  background-image: url("../img/mbellis4.jpg"); }
-
-#imageTwentyOne {
-  background-image: url("../img/mbellis5.jpg"); }
-
-#imageTwentyTwo {
-  background-image: url("../img/urban.jpg"); }
-
-#imageTwentyThree {
-  background-image: url("../img/beach.jpg"); }
-
-#imageTwentyFour {
-  background-image: url("../img/beach1.jpg"); }
-
-#imageTwentyFive {
-  background-image: url("../img/beach2.jpg"); }
-
-#imageTwentySix {
-  background-image: url("../img/sauvie.jpg"); }
-
-#imageTwentySeven {
-  background-image: url("../img/sauvie2.jpg"); }
-
-#imageTwentyEight {
-  background-image: url("../img/sauvie3.jpg"); }
-
-#imageTwentyNine {
-  background-image: url("../img/sauvie4.jpg"); }
-
-#imageThirty {
-  background-image: url("../img/fashion.jpg"); }
-
-#imageThirtyOne {
-  background-image: url("../img/fashion2.jpg"); }
-
-#imageThirtyTwo {
-  background-image: url("../img/fashion3.jpg"); }
-
-#imageThirtyThree {
-  background-image: url("../img/gogo.jpg"); }
-
-#imageThirtyFour {
-  background-image: url("../img/gogo2.jpg"); }
-
-#imageThirtyFive {
   background-image: url("../img/gogo3.jpg"); }
-
-#imageThirtySix {
-  background-image: url("../img/gogob.jpg"); }
-
-#imageThirtySeven {
-  background-image: url("../img/tez_one.jpg"); }
-
-#imageThirtyEight {
-  background-image: url("../img/tez_two.jpg"); }
-
-#imageThirtyNine {
-  background-image: url("../img/tez_three.jpg"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

@@ -1,9 +1,9 @@
 // Footer
 #footer-title {
   @extend %centered;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: $stack-sacramento;
   font-size: 1em;
-  margin: 3em;
+  // margin: 2em;
 }
 
 #footer {

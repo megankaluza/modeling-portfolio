@@ -1,12 +1,4 @@
 // Fonts
-// @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
-//
-// @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-//
-// @import url('https://fonts.googleapis.com/css?family=Monoton');
-//
-// @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
-
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Sacramento');
 
 // Sass Components
@@ -17,8 +9,7 @@ body {
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
-  // font-family: 'Advent Pro', sans-serif;
+  font-family: $stack-sacramento;
   font-size: 2em;
   padding: 1em;
   letter-spacing: .2em;
@@ -31,11 +22,15 @@ h2 {
   padding-bottom: 1em;
 }
 
+h2 a {
+  color: $black;
+  font-family: $stack-sacramento;
+}
+
 h3 {
-  font-family: 'Sacramento', cursive;
+  font-family: $stack-sacramento;
   padding: 1em;
   font-size: 3em;
-  // letter-spacing: .2em;
 }
 
 h3.title {
@@ -97,11 +92,16 @@ span {
 }
 
 .grow {
-  width: 10%;
+  // opacity: 0;
+  width: 100%;
   transition: all .1s ease-in-out;
   &:hover {
     transform: scale(1.1);
   }
+}
+
+.hide {
+  opacity: 0;
 }
 
 .icon {
@@ -115,28 +115,9 @@ span {
 
 .intro {
   @extend %centered;
-  // border-bottom: 1px solid $black;
-  // background-color: $white;
-  // background-image: url('#{$path-img}/footer.svg');
   background-repeat: no-repeat;
   background-position: right;
   height: 30%;
-}
-
-.label {
-  @extend %centered;
-  background: $white;
-  // background-image: url('#{$path-img}/footer.svg');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  border-bottom: 1px solid $black;
-  border-top: 1px solid $black;
-  a {
-    color: $black;
-  }
-  h3 {
-    color: $black;
-  }
 }
 
 .margin {
@@ -205,12 +186,12 @@ span {
   @extend %flex;
   // flex-basis: 0;
   flex-wrap: wrap;
-  -webkit-filter: grayscale(100%);
-  &:hover {
-    opacity: 1;
-    filter: none;
-    -webkit-filter: grayscale(0%);
-  }
+  // -webkit-filter: grayscale(100%);
+  // &:hover {
+  //   opacity: 1;
+  //   filter: none;
+  //   -webkit-filter: grayscale(0%);
+  // }
 }
 
 #imageOne,
@@ -230,78 +211,19 @@ span {
 #imageFifteen,
 #imageSixteen,
 #imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
-#imageTwentyOne,
-#imageTwentyTwo,
-#imageTwentyThree,
-#imageTwentyFour,
-#imageTwentyFive,
-#imageTwentySix,
-#imageTwentySeven,
-#imageTwentyEight,
-#imageTwentyNine,
-#imageThirty,
-#imageThirtyOne,
-#imageThirtyTwo,
-#imageThirtyThree,
-#imageThirtyFour,
-#imageThirtyFive,
-#imageThirtySix,
-#imageThirtySeven,
-#imageThirtyEight,
-#imageThirtyNine,
-#imageForty,
-#insertOne,
-#insertTwo,
-#insertThree,
-#insertFour,
-#insertFive,
-#insertSix,
-#insertSeven {
+#imageEighteen {
   @extend %align;
   @extend %image;
-  @extend %opacity;
+  // @extend %opacity;
   &:hover {
     opacity: 1;
   }
 }
 
-//INSERT Photos
-
-#insertOne {
-  background-image: url('#{$path-img}/pumpkin.jpg');
-}
-
-#insertTwo {
-  background-image: url('#{$path-img}/pumpkin2.jpg');
-}
-
-#insertThree {
-  background-image: url('#{$path-img}/pumpkin3.jpg');
-}
-
-#insertFour {
-  background-image: url('#{$path-img}/corn1.jpg');
-}
-
-#insertFive {
-  background-image: url('#{$path-img}/corn2.jpg');
-}
-
-#insertSix {
-  background-image: url('#{$path-img}/corn3.jpg');
-}
-
-#insertSeven {
-  background-image: url('#{$path-img}/corn4.jpg');
-}
-
 //Photos
 
 #imageOne {
-  background-image: url('#{$path-img}/rooftop8.png');
+  background-image: url('#{$path-img}/rooftop1.png');
 }
 
 #imageTwo {
@@ -309,7 +231,7 @@ span {
 }
 
 #imageThree {
-  background-image: url('#{$path-img}/rooftop10.png');
+  background-image: url('#{$path-img}/rooftop3.png');
 }
 
 #imageFour {
@@ -325,140 +247,52 @@ span {
 }
 
 #imageSeven {
-  background-image: url('#{$path-img}/boudoir7.jpg');
-}
-
-#imageEight {
   background-image: url('#{$path-img}/boudoir8.jpg');
 }
 
-#imageNine {
+#imageEight {
   background-image: url('#{$path-img}/boudoir9.jpg');
 }
 
-#imageTen {
+#imageNine {
   background-image: url('#{$path-img}/butterfly.jpg');
 }
 
+#imageTen {
+  background-image: url('#{$path-img}/boudoir6.jpg');
+}
+
 #imageEleven {
-  background-image: url('#{$path-img}/butterfly2.jpg');
+  background-image: url('#{$path-img}/bedroom1.png');
 }
 
 #imageTwelve {
-  background-image: url('#{$path-img}/butterfly3.jpg');
+  background-image: url('#{$path-img}/beach.png');
 }
 
 #imageThirteen {
-  background-image: url('#{$path-img}/shadow.jpg');
+  background-image: url('#{$path-img}/beach2.png');
 }
 
 #imageFourteen {
-  background-image: url('#{$path-img}/shadow2.jpg');
+  background-image: url('#{$path-img}/sauvie3.png');
 }
 
 #imageFifteen {
-  background-image: url('#{$path-img}/shadow3.jpg');
+  background-image: url('#{$path-img}/gogoblack.png');
 }
 
 #imageSixteen {
-  background-image: url('#{$path-img}/shadow4.jpg');
+  background-image: url('#{$path-img}/gogoblack2.png');
 }
 
 #imageSeventeen {
-  background-image: url('#{$path-img}/mbellis1.jpg');
+  background-image: url('#{$path-img}/gogoblack3.png');
 }
 
 #imageEighteen {
-  background-image: url('#{$path-img}/mbellis2.jpg');
-}
-
-#imageNineteen {
-  background-image: url('#{$path-img}/mbellis3.jpg');
-}
-
-#imageTwenty {
-  background-image: url('#{$path-img}/mbellis4.jpg');
-}
-
-#imageTwentyOne {
-  background-image: url('#{$path-img}/mbellis5.jpg');
-}
-
-#imageTwentyTwo {
-  background-image: url('#{$path-img}/urban.jpg');
-}
-
-#imageTwentyThree {
-  background-image: url('#{$path-img}/beach.jpg');
-}
-
-#imageTwentyFour {
-  background-image: url('#{$path-img}/beach1.jpg');
-}
-
-#imageTwentyFive {
-  background-image: url('#{$path-img}/beach2.jpg');
-}
-
-#imageTwentySix {
-  background-image: url('#{$path-img}/sauvie.jpg');
-}
-
-#imageTwentySeven {
-  background-image: url('#{$path-img}/sauvie2.jpg');
-}
-
-#imageTwentyEight {
-  background-image: url('#{$path-img}/sauvie3.jpg');
-}
-
-#imageTwentyNine {
-  background-image: url('#{$path-img}/sauvie4.jpg');
-}
-
-#imageThirty {
-  background-image: url('#{$path-img}/fashion.jpg');
-}
-
-#imageThirtyOne {
-  background-image: url('#{$path-img}/fashion2.jpg');
-}
-
-#imageThirtyTwo {
-  background-image: url('#{$path-img}/fashion3.jpg');
-}
-
-#imageThirtyThree {
-  background-image: url('#{$path-img}/gogo.jpg');
-}
-
-#imageThirtyFour {
-  background-image: url('#{$path-img}/gogo2.jpg');
-}
-
-#imageThirtyFive {
   background-image: url('#{$path-img}/gogo3.jpg');
 }
-
-#imageThirtySix {
-  background-image: url('#{$path-img}/gogob.jpg');
-}
-
-#imageThirtySeven {
-  background-image: url('#{$path-img}/tez_one.jpg');
-}
-
-#imageThirtyEight {
-  background-image: url('#{$path-img}/tez_two.jpg');
-}
-
-#imageThirtyNine {
-  background-image: url('#{$path-img}/tez_three.jpg');
-}
-
-// #imageForty {
-//   background-image: url('#{$path-img}/gobo4.jpg');
-// }
 
 // Media Queries
 @media only screen and
