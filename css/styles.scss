@@ -17,7 +17,7 @@ h1 {
 
 .resume {
   text-align: left;
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -50,15 +50,18 @@ h4 a {
 }
 
 p {
+  // font-weight: bolder;
+  font-variant: small-caps;
   margin: .8em;
-  text-align: center;
+  text-align: left;
 }
 
 span {
   // color: $madder;
-  color: #280064;
-  font-variant: small-caps;
-  font-size: 1.5em;
+  color: #C01212;
+  // font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .background {
@@ -82,12 +85,12 @@ span {
 }
 
 .content {
-  border: 1px solid $black;
+  // border: 1px solid $black;
   display: block;
   margin: 0 auto;
   margin-top: 1em;
   padding-bottom: 3em;
-  width: 700px;
+  width: 600px;
 }
 
 .credentials {
@@ -283,15 +286,15 @@ span {
 }
 
 #imageTwelve {
-  background-image: url('#{$path-img}/beach.png');
+  background-image: url('#{$path-img}/beach.jpg');
 }
 
 #imageThirteen {
-  background-image: url('#{$path-img}/beach2.png');
+  background-image: url('#{$path-img}/beach2.jpg');
 }
 
 #imageFourteen {
-  background-image: url('#{$path-img}/sauvie3.png');
+  background-image: url('#{$path-img}/sauvie3.jpg');
 }
 
 #imageFifteen {

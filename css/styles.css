@@ -118,7 +118,7 @@ h1 {
 
 .resume {
   text-align: left;
-  font-size: 1.8em; }
+  font-size: 2.5em; }
 
 h2 {
   font-family: "Advent Pro", sans-serif;
@@ -144,13 +144,14 @@ h4 a {
   color: #000000; }
 
 p {
+  font-variant: small-caps;
   margin: .8em;
-  text-align: center; }
+  text-align: left; }
 
 span {
-  color: #280064;
-  font-variant: small-caps;
-  font-size: 1.5em; }
+  color: #C01212;
+  font-weight: bold;
+  font-size: 1.2em; }
 
 .background {
   width: 100%;
@@ -164,12 +165,11 @@ span {
   display: flex-inline; }
 
 .content {
-  border: 1px solid #000000;
   display: block;
   margin: 0 auto;
   margin-top: 1em;
   padding-bottom: 3em;
-  width: 700px; }
+  width: 600px; }
 
 .credentials {
   display: block;
@@ -308,13 +308,13 @@ span {
   background-image: url("../img/bedroom1.png"); }
 
 #imageTwelve {
-  background-image: url("../img/beach.png"); }
+  background-image: url("../img/beach.jpg"); }
 
 #imageThirteen {
-  background-image: url("../img/beach2.png"); }
+  background-image: url("../img/beach2.jpg"); }
 
 #imageFourteen {
-  background-image: url("../img/sauvie3.png"); }
+  background-image: url("../img/sauvie3.jpg"); }
 
 #imageFifteen {
   background-image: url("../img/gogoblack.png"); }
