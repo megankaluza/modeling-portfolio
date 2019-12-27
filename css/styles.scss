@@ -46,7 +46,7 @@ h3 a {
 }
 
 h4 a {
-  color: $black;
+  color: #C01212;
 }
 
 p {
@@ -262,7 +262,7 @@ span {
 }
 
 #imageSix {
-  background-image: url('#{$path-img}/back.jpg');
+  background-image: url('#{$path-img}/back.png');
 }
 
 #imageSeven {
@@ -355,7 +355,7 @@ and (max-width: 768px) {
 @media only screen
 and (max-width: 415px) {
   .content {
-    border: 2px solid $black;
+    // border: 2px solid $black;
     display: block;
     margin: 0 auto;
     width: 290px;

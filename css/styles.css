@@ -141,7 +141,7 @@ h3 a {
   color: #000000; }
 
 h4 a {
-  color: #000000; }
+  color: #C01212; }
 
 p {
   font-variant: small-caps;
@@ -290,7 +290,7 @@ span {
   background-image: url("../img/boudoir2.jpg"); }
 
 #imageSix {
-  background-image: url("../img/back.jpg"); }
+  background-image: url("../img/back.png"); }
 
 #imageSeven {
   background-image: url("../img/boudoir8.jpg"); }
@@ -353,7 +353,6 @@ span {
     width: 88%; } }
 @media only screen and (max-width: 415px) {
   .content {
-    border: 2px solid #000000;
     display: block;
     margin: 0 auto;
     width: 290px; }
