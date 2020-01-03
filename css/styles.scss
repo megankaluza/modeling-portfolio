@@ -46,22 +46,24 @@ h3 a {
 }
 
 h4 a {
-  color: #C01212;
+  color: #00008b;
 }
 
 p {
-  // font-weight: bolder;
   font-variant: small-caps;
   margin: .8em;
   text-align: left;
 }
 
 span {
-  // color: $madder;
-  color: #C01212;
-  // font-variant: small-caps;
+  color: #00008b;
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.link {
+  font-family: $stack-sacramento;
+  font-size: 1.5em;
 }
 
 .background {
@@ -355,8 +357,8 @@ and (max-width: 768px) {
 @media only screen
 and (max-width: 415px) {
   .content {
-    // border: 2px solid $black;
     display: block;
+    font-size: 10px;
     margin: 0 auto;
     width: 290px;
   }

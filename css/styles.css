@@ -141,7 +141,7 @@ h3 a {
   color: #000000; }
 
 h4 a {
-  color: #C01212; }
+  color: #00008b; }
 
 p {
   font-variant: small-caps;
@@ -149,9 +149,13 @@ p {
   text-align: left; }
 
 span {
-  color: #C01212;
+  color: #00008b;
   font-weight: bold;
   font-size: 1.2em; }
+
+.link {
+  font-family: "Sacramento", cursive;
+  font-size: 1.5em; }
 
 .background {
   width: 100%;
@@ -354,6 +358,7 @@ span {
 @media only screen and (max-width: 415px) {
   .content {
     display: block;
+    font-size: 10px;
     margin: 0 auto;
     width: 290px; }
 
