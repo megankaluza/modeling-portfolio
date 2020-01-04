@@ -369,6 +369,10 @@ and (max-width: 415px) {
     background-size: contain;
   }
 
+  .info {
+    font-size: 8px;
+  }
+
   .label,
   .intro {
     background-image: url('#{$path-img}/hidden.svg');

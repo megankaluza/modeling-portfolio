@@ -367,6 +367,9 @@ span {
     height: 500px;
     background-size: contain; }
 
+  .info {
+    font-size: 8px; }
+
   .label,
   .intro {
     background-image: url("../img/hidden.svg"); }
