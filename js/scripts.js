@@ -21,6 +21,54 @@ $(document).ready(function(){
   });
 
   //Open Modal
+  $('#openNew1').click(function(){
+    $('.newOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openNew2').click(function(){
+    $('.newTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openNew3').click(function(){
+    $('.newThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openNew4').click(function(){
+    $('.newFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openNew5').click(function(){
+    $('.newFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openNew7').click(function(){
+    $('.newSeven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
   $('#open').click(function(){
     $('.one')
     .modal({

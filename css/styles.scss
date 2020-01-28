@@ -211,6 +211,13 @@ span {
   // }
 }
 
+#newImageOne,
+#newImageTwo,
+#newImageThree,
+#newImageFour,
+#newImageFive,
+// #newImageSix,
+#newImageSeven,
 #imageOne,
 #imageTwo,
 #imageThree,
@@ -242,6 +249,34 @@ span {
 }
 
 //Photos
+
+#newImageOne {
+  background-image: url('#{$path-img}/vegas-one.png');
+}
+
+#newImageTwo {
+  background-image: url('#{$path-img}/vegas-two.png');
+}
+
+#newImageThree {
+  background-image: url('#{$path-img}/vegas-three.png');
+}
+
+#newImageFour {
+  background-image: url('#{$path-img}/vegas-four.png');
+}
+
+#newImageFive {
+  background-image: url('#{$path-img}/vegas-five.png');
+}
+
+// #newImageSix {
+//   background-image: url('#{$path-img}/vegas-six.png');
+// }
+
+#newImageSeven {
+  background-image: url('#{$path-img}/vegas-seven.png');
+}
 
 #imageOne {
   background-image: url('#{$path-img}/rooftop1color.png');

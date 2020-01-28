@@ -5,7 +5,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-.background, #imageOne,
+.background, #newImageOne,
+#newImageTwo,
+#newImageThree,
+#newImageFour,
+#newImageFive,
+#newImageSeven,
+#imageOne,
 #imageTwo,
 #imageThree,
 #imageFour,
@@ -32,7 +38,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #footer-title, .contact, .intro {
   text-align: center; }
 
-.background, #imageOne,
+.background, #newImageOne,
+#newImageTwo,
+#newImageThree,
+#newImageFour,
+#newImageFive,
+#newImageSeven,
+#imageOne,
 #imageTwo,
 #imageThree,
 #imageFour,
@@ -58,7 +70,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-position: top;
   background-repeat: no-repeat; }
 
-.background, #imageOne,
+.background, #newImageOne,
+#newImageTwo,
+#newImageThree,
+#newImageFour,
+#newImageFive,
+#newImageSeven,
+#imageOne,
 #imageTwo,
 #imageThree,
 #imageFour,
@@ -254,6 +272,12 @@ span {
 .gallery {
   flex-wrap: wrap; }
 
+#newImageOne:hover,
+#newImageTwo:hover,
+#newImageThree:hover,
+#newImageFour:hover,
+#newImageFive:hover,
+#newImageSeven:hover,
 #imageOne:hover,
 #imageTwo:hover,
 #imageThree:hover,
@@ -277,6 +301,24 @@ span {
 #imageTwentyOne:hover,
 #imageTwentyTwo:hover {
   opacity: 1; }
+
+#newImageOne {
+  background-image: url("../img/vegas-one.png"); }
+
+#newImageTwo {
+  background-image: url("../img/vegas-two.png"); }
+
+#newImageThree {
+  background-image: url("../img/vegas-three.png"); }
+
+#newImageFour {
+  background-image: url("../img/vegas-four.png"); }
+
+#newImageFive {
+  background-image: url("../img/vegas-five.png"); }
+
+#newImageSeven {
+  background-image: url("../img/vegas-seven.png"); }
 
 #imageOne {
   background-image: url("../img/rooftop1color.png"); }
