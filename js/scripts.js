@@ -21,6 +21,124 @@ $(document).ready(function(){
   });
 
   //Open Modal
+
+  //ART
+  $('#openArt1').click(function(){
+    $('.artOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openArt2').click(function(){
+    $('.artTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openArt3').click(function(){
+    $('.artThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openArt4').click(function(){
+    $('.artFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openArt5').click(function(){
+    $('.artFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //JE SUIS HUMAN
+  $('#openHuman1').click(function(){
+    $('.humanOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openHuman2').click(function(){
+    $('.humanTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //Glorka
+  $('#openGlorka1').click(function(){
+    $('.glorkaOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openGlorka2').click(function(){
+    $('.glorkaTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openGlorka3').click(function(){
+    $('.glorkaThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openGlorka4').click(function(){
+    $('.glorkaFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //Venice
+  $('#openVenice1').click(function(){
+    $('.veniceOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openVenice2').click(function(){
+    $('.veniceTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openVenice3').click(function(){
+    $('.veniceThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //Vegas
   $('#openNew1').click(function(){
     $('.newOne')
     .modal({

@@ -211,6 +211,20 @@ span {
   // }
 }
 
+#artOne,
+#artTwo,
+#artThree,
+#artFour,
+#artFive,
+#humanOne,
+#humanTwo,
+#glorkaOne,
+#glorkaTwo,
+#glorkaThree,
+#glorkaFour,
+#veniceOne,
+#veniceTwo,
+#veniceThree,
 #newImageOne,
 #newImageTwo,
 #newImageThree,
@@ -249,6 +263,62 @@ span {
 }
 
 //Photos
+
+#artOne {
+  background-image: url('#{$path-img}/art1.jpg');
+}
+
+#artTwo {
+  background-image: url('#{$path-img}/art2.jpg');
+}
+
+#artThree {
+  background-image: url('#{$path-img}/art3.jpg');
+}
+
+#artFour {
+  background-image: url('#{$path-img}/art4.jpg');
+}
+
+#artFive {
+  background-image: url('#{$path-img}/art5.jpg');
+}
+
+#humanOne {
+  background-image: url('#{$path-img}/human1.jpg');
+}
+
+#humanTwo {
+  background-image: url('#{$path-img}/human2.jpg');
+}
+
+#glorkaOne {
+  background-image: url('#{$path-img}/glorka1.jpg');
+}
+
+#glorkaTwo {
+  background-image: url('#{$path-img}/glorka2.jpg');
+}
+
+#glorkaThree {
+  background-image: url('#{$path-img}/glorka3.jpg');
+}
+
+#glorkaFour {
+  background-image: url('#{$path-img}/glorka4.jpg');
+}
+
+#veniceOne {
+  background-image: url('#{$path-img}/sun.jpg');
+}
+
+#veniceTwo {
+  background-image: url('#{$path-img}/dreamers.jpg');
+}
+
+#veniceThree {
+  background-image: url('#{$path-img}/swag.jpg');
+}
 
 #newImageOne {
   background-image: url('#{$path-img}/vegas-one.png');
