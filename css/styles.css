@@ -496,6 +496,12 @@ span {
   .ui.modal {
     width: 88%; } }
 @media only screen and (max-width: 415px) {
+  h1 {
+    font-size: 1.2em; }
+
+  h3 {
+    font-size: 1.5em; }
+
   .content {
     display: block;
     font-size: 10px;
