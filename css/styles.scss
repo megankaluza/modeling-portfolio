@@ -463,6 +463,10 @@ and (max-width: 768px) {
 and (max-width: 415px) {
 
   h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
     font-size: 1.2em;
   }
 
@@ -471,7 +475,7 @@ and (max-width: 415px) {
   }
 
   h4 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .content {
