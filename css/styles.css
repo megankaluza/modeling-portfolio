@@ -479,10 +479,10 @@ span {
   background-image: url("../img/urban.png"); }
 
 #imageTwentyOne {
-  background-image: url("../img/bootydeck.png"); }
+  background-image: url("../img/shadow3.jpg"); }
 
 #imageTwentyTwo {
-  background-image: url("../img/booty2.png"); }
+  background-image: url("../img/shadow4.jpg"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {
@@ -496,18 +496,6 @@ span {
   .ui.modal {
     width: 88%; } }
 @media only screen and (max-width: 415px) {
-  h1 {
-    font-size: 1.5em; }
-
-  h2 {
-    font-size: 1.2em; }
-
-  h3 {
-    font-size: 1.5em; }
-
-  h4 {
-    font-size: 1em; }
-
   .content {
     display: block;
     font-size: 10px;

@@ -429,11 +429,11 @@ span {
 }
 
 #imageTwentyOne {
-  background-image: url('#{$path-img}/bootydeck.png');
+  background-image: url('#{$path-img}/shadow3.jpg');
 }
 
 #imageTwentyTwo {
-  background-image: url('#{$path-img}/booty2.png');
+  background-image: url('#{$path-img}/shadow4.jpg');
 }
 
 // Media Queries
@@ -461,23 +461,6 @@ and (max-width: 768px) {
 
 @media only screen
 and (max-width: 415px) {
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  h3 {
-    font-size: 1.5em;
-  }
-
-  h4 {
-    font-size: 1em;
-  }
-
   .content {
     display: block;
     font-size: 10px;
