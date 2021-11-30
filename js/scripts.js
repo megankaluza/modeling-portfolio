@@ -27,6 +27,130 @@ $(document).ready(function(){
 
   //Open Modal
 
+  //DISCO
+  $('#openDisco1').click(function(){
+    $('.discoOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco2').click(function(){
+    $('.discoTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco3').click(function(){
+    $('.discoThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco4').click(function(){
+    $('.discoFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco5').click(function(){
+    $('.discoFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  // $('#openDisco6').click(function(){
+  //   $('.discoSix')
+  //   .modal({
+  //     blurring: true
+  //   })
+  //   .modal('show');
+  // });
+
+  $('#openDisco7').click(function(){
+    $('.discoSeven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco8').click(function(){
+    $('.discoEight')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openDisco9').click(function(){
+    $('.discoNine')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //APPAREL
+  $('#openApparel1').click(function(){
+    $('.apparelOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openApparel2').click(function(){
+    $('.apparelTwo')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openApparel3').click(function(){
+    $('.apparelThree')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openApparel4').click(function(){
+    $('.apparelFour')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#openApparel5').click(function(){
+    $('.apparelFive')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  //Head Shot
+
+  $('#openFace1').click(function(){
+    $('.faceOne')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
   //ART
   $('#openArt1').click(function(){
     $('.artOne')
@@ -234,13 +358,13 @@ $(document).ready(function(){
     .modal('show');
   });
 
-  $('#open6').click(function(){
-    $('.six')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
+  // $('#open6').click(function(){
+  //   $('.six')
+  //   .modal({
+  //     blurring: true
+  //   })
+  //   .modal('show');
+  // });
 
   //Portland
   $('#open7').click(function(){

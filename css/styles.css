@@ -5,7 +5,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-.background, #artOne,
+.background, #discoOne,
+#discoTwo,
+#discoThree,
+#discoFour,
+#discoFive,
+#discoSeven,
+#discoEight,
+#discoNine,
+#apparelOne,
+#apparelTwo,
+#apparelThree,
+#apparelFour,
+#apparelFive,
+#faceOne,
+#artOne,
 #artTwo,
 #artThree,
 #artFour,
@@ -30,7 +44,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThree,
 #imageFour,
 #imageFive,
-#imageSix,
 #imageSeven,
 #imageEight,
 #imageNine,
@@ -52,7 +65,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #footer-title, .contact, .intro {
   text-align: center; }
 
-.background, #artOne,
+.background, #discoOne,
+#discoTwo,
+#discoThree,
+#discoFour,
+#discoFive,
+#discoSeven,
+#discoEight,
+#discoNine,
+#apparelOne,
+#apparelTwo,
+#apparelThree,
+#apparelFour,
+#apparelFive,
+#faceOne,
+#artOne,
 #artTwo,
 #artThree,
 #artFour,
@@ -77,7 +104,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThree,
 #imageFour,
 #imageFive,
-#imageSix,
 #imageSeven,
 #imageEight,
 #imageNine,
@@ -98,7 +124,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-position: top;
   background-repeat: no-repeat; }
 
-.background, #artOne,
+.background, #discoOne,
+#discoTwo,
+#discoThree,
+#discoFour,
+#discoFive,
+#discoSeven,
+#discoEight,
+#discoNine,
+#apparelOne,
+#apparelTwo,
+#apparelThree,
+#apparelFour,
+#apparelFive,
+#faceOne,
+#artOne,
 #artTwo,
 #artThree,
 #artFour,
@@ -123,7 +163,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageThree,
 #imageFour,
 #imageFive,
-#imageSix,
 #imageSeven,
 #imageEight,
 #imageNine,
@@ -179,6 +218,11 @@ h1 {
 .resume {
   text-align: left;
   font-size: 2.5em; }
+
+.motto {
+  font-family: "Sacramento", cursive;
+  font-size: 1.2em;
+  letter-spacing: .1em; }
 
 h2 {
   font-family: "Advent Pro", sans-serif;
@@ -314,6 +358,20 @@ span {
 .gallery {
   flex-wrap: wrap; }
 
+#discoOne:hover,
+#discoTwo:hover,
+#discoThree:hover,
+#discoFour:hover,
+#discoFive:hover,
+#discoSeven:hover,
+#discoEight:hover,
+#discoNine:hover,
+#apparelOne:hover,
+#apparelTwo:hover,
+#apparelThree:hover,
+#apparelFour:hover,
+#apparelFive:hover,
+#faceOne:hover,
 #artOne:hover,
 #artTwo:hover,
 #artThree:hover,
@@ -339,7 +397,6 @@ span {
 #imageThree:hover,
 #imageFour:hover,
 #imageFive:hover,
-#imageSix:hover,
 #imageSeven:hover,
 #imageEight:hover,
 #imageNine:hover,
@@ -357,6 +414,48 @@ span {
 #imageTwentyOne:hover,
 #imageTwentyTwo:hover {
   opacity: 1; }
+
+#discoOne {
+  background-image: url("../img/disco1.png"); }
+
+#discoTwo {
+  background-image: url("../img/disco2.png"); }
+
+#discoThree {
+  background-image: url("../img/disco3.png"); }
+
+#discoFour {
+  background-image: url("../img/disco4.png"); }
+
+#discoFive {
+  background-image: url("../img/disco5.png"); }
+
+#discoSeven {
+  background-image: url("../img/disco7.png"); }
+
+#discoEight {
+  background-image: url("../img/disco8.png"); }
+
+#discoNine {
+  background-image: url("../img/disco9.png"); }
+
+#apparelOne {
+  background-image: url("../img/apparel1.jpg"); }
+
+#apparelTwo {
+  background-image: url("../img/apparel2.jpg"); }
+
+#apparelThree {
+  background-image: url("../img/apparel3.jpg"); }
+
+#faceOne {
+  background-image: url("../img/face.png"); }
+
+#apparelFour {
+  background-image: url("../img/apparel4.png"); }
+
+#apparelFive {
+  background-image: url("../img/apparel5.png"); }
 
 #artOne {
   background-image: url("../img/art1.jpg"); }
@@ -433,9 +532,6 @@ span {
 #imageFive {
   background-image: url("../img/boudoir2.jpg"); }
 
-#imageSix {
-  background-image: url("../img/back.png"); }
-
 #imageSeven {
   background-image: url("../img/boudoir8.jpg"); }
 
@@ -479,10 +575,10 @@ span {
   background-image: url("../img/urban.png"); }
 
 #imageTwentyOne {
-  background-image: url("../img/shadow3.jpg"); }
+  background-image: url("../img/booty2color.png"); }
 
 #imageTwentyTwo {
-  background-image: url("../img/shadow4.jpg"); }
+  background-image: url("../img/booty2.png"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

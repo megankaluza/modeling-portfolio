@@ -20,6 +20,12 @@ h1 {
   font-size: 2.5em;
 }
 
+.motto {
+  font-family: $stack-sacramento;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
+
 h2 {
   font-family: $stack-advent;
   letter-spacing: .1em;
@@ -211,6 +217,21 @@ span {
   // }
 }
 
+#discoOne,
+#discoTwo,
+#discoThree,
+#discoFour,
+#discoFive,
+// #discoSix,
+#discoSeven,
+#discoEight,
+#discoNine,
+#apparelOne,
+#apparelTwo,
+#apparelThree,
+#apparelFour,
+#apparelFive,
+#faceOne,
 #artOne,
 #artTwo,
 #artThree,
@@ -237,7 +258,7 @@ span {
 #imageThree,
 #imageFour,
 #imageFive,
-#imageSix,
+// #imageSix,
 #imageSeven,
 #imageEight,
 #imageNine,
@@ -263,6 +284,66 @@ span {
 }
 
 //Photos
+
+#discoOne {
+  background-image: url('#{$path-img}/disco1.png');
+}
+
+#discoTwo {
+  background-image: url('#{$path-img}/disco2.png');
+}
+
+#discoThree {
+  background-image: url('#{$path-img}/disco3.png');
+}
+
+#discoFour {
+  background-image: url('#{$path-img}/disco4.png');
+}
+
+#discoFive {
+  background-image: url('#{$path-img}/disco5.png');
+}
+
+// #discoSix {
+//   background-image: url('#{$path-img}/disco6.png');
+// }
+
+#discoSeven {
+  background-image: url('#{$path-img}/disco7.png');
+}
+
+#discoEight {
+  background-image: url('#{$path-img}/disco8.png');
+}
+
+#discoNine {
+  background-image: url('#{$path-img}/disco9.png');
+}
+
+#apparelOne {
+  background-image: url('#{$path-img}/apparel1.jpg');
+}
+
+#apparelTwo {
+  background-image: url('#{$path-img}/apparel2.jpg');
+}
+
+#apparelThree {
+  background-image: url('#{$path-img}/apparel3.jpg');
+}
+
+#faceOne {
+  background-image: url('#{$path-img}/face.png');
+}
+
+#apparelFour {
+  background-image: url('#{$path-img}/apparel4.png');
+}
+
+#apparelFive {
+  background-image: url('#{$path-img}/apparel5.png');
+}
 
 #artOne {
   background-image: url('#{$path-img}/art1.jpg');
@@ -368,9 +449,9 @@ span {
   background-image: url('#{$path-img}/boudoir2.jpg');
 }
 
-#imageSix {
-  background-image: url('#{$path-img}/back.png');
-}
+// #imageSix {
+//   background-image: url('#{$path-img}/back.png');
+// }
 
 #imageSeven {
   background-image: url('#{$path-img}/boudoir8.jpg');
@@ -429,11 +510,11 @@ span {
 }
 
 #imageTwentyOne {
-  background-image: url('#{$path-img}/shadow3.jpg');
+  background-image: url('#{$path-img}/booty2color.png');
 }
 
 #imageTwentyTwo {
-  background-image: url('#{$path-img}/shadow4.jpg');
+  background-image: url('#{$path-img}/booty2.png');
 }
 
 // Media Queries
